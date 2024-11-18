@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookie-regular .logo,h1,h2,h3,.cv-button{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  
+body {
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #4C2B36; 
+}
+
+
+.logo h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.social {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 1230px; 
+}
+
+.social h2 {
+    color: #ffffff;
+    margin-left: 2px;
+}
+
+.social ul {
+    list-style: none;
+    display:flex;
+    margin-right: 0;
+    padding: 0;
+    gap: 15px;
+
+}
+
+.social ul li {
+    margin-right: 0; 
+}
+
+.social ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    height: 60%; 
+    background-color: #C7A3AF;
+    text-align: left; 
+    padding: 20px; 
+    gap: 20px; 
+}
+
+.header-image {
+    flex: 1; 
+    max-width: 40%; 
+    height: auto; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content:flex-start;
+    margin-left:50%;
+}
+
+
+.hero h2 {
+    font-size: 40px;
+    color: white;
+    
+}
+
+.hero a.cv-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #713046;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow:10px 5px 5px #492a35;
+    font-size: 25px;
+}
+
+.hero a.cv-button:hover {
+    background-color: #db2864;
+}
+
+.info {
+    flex:0,25;
+    font-size: 23px;
+    color: #ffffff;
+    line-height: 1.5;
+    margin-right:60px;
+
+
+}
